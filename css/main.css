@@ -32,6 +32,8 @@ body {
 .gray-scaled-img {
     filter: grayscale(100%);
 }
-
+.gray-scaled-img:hover {
+    filter: grayscale(0%);
+}
 
 /*  ------- feedback section style --------- */
