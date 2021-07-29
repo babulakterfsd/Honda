@@ -32,7 +32,37 @@
    </head>
    <body>
      <!-- Header Starts -->
-       <header id="header" class="header py-3 py-md-5">
+       <header id="header" class="header pt-2 pt-md-3 pb-3 pb-md-5">
+         <!----- navbar starts ------>
+         <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-4 mb-md-4 pe-md-5">
+                <li class="nav-item">
+                  <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item ms-md-4 mt-2 mt-md-0">
+                  <a class="nav-link text-secondary font-weight-bold d-inline-block bg-warning py-2 px-4 rounded-2" href="#">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      <!-- Navbar ends -->
+
+      <!----- banner section starts ------>
          <div class="container">
            <div class="row align-items-center">
              <div class="col-12 col-md-6 px-md-5">
@@ -99,6 +129,61 @@
              </div>
           </section>
       <!-- feature bike section ends -->
+
+      <!-- latest News section starts  -->
+      <section id="news" class="news py-3 py-md-5 my-2 my-md-5">
+        <div class="container">
+          <h1 class="text-center my-5 font-weight-bold">Latest News</h1> 
+          <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card p-3 card-shadow">
+                    <img src="./images/bike-1.png" class="card-img-top img-fluid rounded-3" alt="...">
+                    <div class="card-body p-0 my-4">
+                        <h4 class="card-title font-weight-bolder">Ducati XDIAVEL S-73 </h4>
+                        <p class="card-text mb-4 text-muted">Fuel injection means the CBR300R starts right up, even in cold weather. Compared to a carbureted bike, it also helps reduce emissions and enhance performance and fuel efficiency.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2 class="text-warning">$2340</h2>
+                            <button class="btn btn-warning py-2 px-3 text-muted">
+                              <i class="fas fa-cart-plus me-2"></i>
+                            Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card p-3 card-shadow">
+                  <img src="./images/bike-2.png" class="card-img-top img-fluid rounded-3" alt="...">
+                  <div class="card-body p-0 my-4">
+                      <h4 class="card-title font-weight-bolder">Motorcycles & Scooters</h4>
+                      <p class="card-text mb-4 text-muted">Fuel injection means the CBR300R starts right up, even in cold weather. Compared to a carbureted bike, it also helps reduce emissions and enhance performance and fuel efficiency.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <h2 class="text-warning">$2470</h2>
+                          <button class="btn btn-warning py-2 px-3 text-muted">
+                            <i class="fas fa-cart-plus me-2"></i>
+                          Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-4">
+                <div class="card p-3 card-shadow">
+                    <img src="./images/bike-3.png" class="card-img-top img-fluid rounded-3" alt="...">
+                    <div class="card-body p-0 my-4">
+                        <h4 class="card-title font-weight-bolder">2021 Honda CBR500R </h4>
+                        <p class="card-text mb-4 text-muted">Fuel injection means the CBR300R starts right up, even in cold weather. Compared to a carbureted bike, it also helps reduce emissions and enhance performance and fuel efficiency.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2 class="text-warning">$2950</h2>
+                            <button class="btn btn-warning py-2 px-3 text-muted">
+                              <i class="fas fa-cart-plus me-2"></i>
+                            Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- latest News section ends -->
 
       <!-- feedbacksection starts -->
           <section id="feedback" class="feedback py-3 py-md-5 my-2 my-md-5">
