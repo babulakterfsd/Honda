@@ -21,6 +21,7 @@ body {
 
 
 
+
 /*  ------- feature bike style --------- */
 #featurebikes hr {
     width: 60px;
@@ -35,6 +36,8 @@ body {
 .gray-scaled-img:hover {
     filter: grayscale(0%);
 }
+
+
 
 /*  ------- footer section style --------- */
 #footer {
